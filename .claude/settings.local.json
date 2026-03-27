@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(npm --version)",
+      "Bash(python -m venv venv)",
+      "Bash(source venv/Scripts/activate)",
+      "Bash(pip install:*)",
+      "Bash(npm create:*)",
+      "Bash(npm install:)",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npx vite:*)",
+      "Bash(timeout 10 python -c \"from app.main import app; print\\(''FastAPI app imported successfully''\\)\")",
+      "Bash(pip uninstall:*)",
+      "Bash(python -c \"import numpy; print\\(numpy.__version__, numpy.__file__\\)\")",
+      "Bash(python -c \"from app.main import app; print\\(''FastAPI app imported successfully''\\)\")",
+      "Bash(netstat -ano)"
+    ]
+  }
+}
