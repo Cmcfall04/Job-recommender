@@ -15,7 +15,10 @@
       "Bash(pip uninstall:*)",
       "Bash(python -c \"import numpy; print\\(numpy.__version__, numpy.__file__\\)\")",
       "Bash(python -c \"from app.main import app; print\\(''FastAPI app imported successfully''\\)\")",
-      "Bash(netstat -ano)"
+      "Bash(netstat -ano)",
+      "Bash(python -c \"import fastapi, sqlalchemy, pdfplumber, sentence_transformers, jobspy; print\\(''all core deps OK''\\)\")",
+      "Bash(find 'C:\\\\Users\\\\Creed McFall\\\\Desktop\\\\Job_Search\\\\Job-recommender\\\\backend' -name *.db -o -name *.sqlite*)",
+      "Bash(find 'C:\\\\Users\\\\Creed McFall\\\\Desktop\\\\Job_Search\\\\Job-recommender' -name *.log -o -name .env*)"
     ]
   }
 }

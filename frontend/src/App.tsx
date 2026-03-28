@@ -5,7 +5,6 @@ import Dashboard from "./pages/Dashboard";
 import Jobs from "./pages/Jobs";
 import JobDetail from "./pages/JobDetail";
 import ResumeUpload from "./pages/ResumeUpload";
-import Settings from "./pages/Settings";
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -26,7 +25,6 @@ function App() {
             <Route path="/jobs" element={<Jobs />} />
             <Route path="/jobs/:id" element={<JobDetail />} />
             <Route path="/resume" element={<ResumeUpload />} />
-            <Route path="/settings" element={<Settings />} />
           </Route>
         </Routes>
       </BrowserRouter>
